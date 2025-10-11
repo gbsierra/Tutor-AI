@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",                          // allow root-relative paths
+    "paths": {
+      "@shared/*": ["../shared/*"],          // alias for shared dir
+      "@local/shared": ["../shared/index.d.ts"] // direct import for shared index
+    },
+    "verbatimModuleSyntax": true             // keep import/export as written
+  }
+}

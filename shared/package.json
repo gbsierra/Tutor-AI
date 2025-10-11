@@ -1,0 +1,26 @@
+{
+  "name": "@local/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./module": "./dist/module.js",
+    "./disciplines": "./dist/disciplines.js",
+    "./problem": "./dist/problem.js",
+    "./d3/*": "./dist/d3/*.js"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist/"
+  },
+  "dependencies": {
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "class-tutor",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" --names \"backend,frontend\" --prefix-colors \"blue,green\"",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "setup-db": "npm run setup-db --workspace=backend",
+    "reset-db": "npm run reset-db --workspace=backend",
+    "install:all": "npm install",
+    "clean": "rm -rf node_modules frontend/node_modules backend/node_modules shared/node_modules frontend/package-lock.json backend/package-lock.json shared/package-lock.json"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "TUTOR AI - Interactive Learning Platform",
+  "short_name": "TUTOR AI",
+  "description": "University-level modules with visual explanations, practice problems, and thoughtful feedback",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A1F15",
+  "theme_color": "#FDBB30",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/logo-square.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"]
+}
