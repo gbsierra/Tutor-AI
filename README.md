@@ -53,7 +53,7 @@ Class Tutor is an AI-powered educational platform that automatically converts le
 
 1. **Clone and install dependencies**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/gbsierra/Tutor-AI.git
    cd Class-Tutor
    npm install
    ```
