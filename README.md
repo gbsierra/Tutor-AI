@@ -142,19 +142,19 @@ Supports 52 academic disciplines across 7 colleges:
 - Social Sciences & Interdisciplinary Studies
 - Education
 
-## 🔐 Authentication System
+## Authentication System
 - **Google OAuth**: Full Google authentication for user accounts
 - **Beta Access Control**: Password-based authentication for controlled testing
 - **User Profiles**: Profile management with contribution tracking
 - **Photo Attribution**: Track who contributed photos to each module with visual contributor tags
 - **Module Photos Tab**: View all lecture photos contributing to a module with contributor attribution
 
-## 🚀 Deployment
+## Deployment
 - **Frontend**: Automatically deployed to Vercel
 - **Backend**: Automatically deployed to Render
 - **Database**: PostgreSQL on Render
 
-## 📚 Documentation
+## Documentation
 - [Frontend README](frontend/README.md) - Frontend architecture and components
 - [Backend README](backend/README.md) - Backend API and services
 - [Shared README](shared/README.md) - Shared types and schemas
